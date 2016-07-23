@@ -1,16 +1,17 @@
-// $(document).ready(function() {
-//     console.log("Hello world!");
+$(document).ready(function() {
+  console.log("Hello world!");
 
-//     $("a").click(function(){
-//     	if(this.hash){
-//     		var hash = this.hash.substr(1);
-//     		console.log(hash);
-//     		var $toElement = $("a[name=" + hash +"]");
-//     		var toPosition = $toElement.position().top;
+  $("a").click(function(event){
+  	if(this.hash){
+  		event.preventDefault();
+  		var hash = this.hash
+  		console.log(hash);
 
-//     		$("body,html").animate({
-//     			scrollTop : toPosition
-//     		}, 2000)
-//     	}
-//     });
-// });
+  		$("body,html").animate({
+  			scrollTop : $(hash).offset().top
+  		}, 800, function(){
+  			window.location.hash = hash;
+  		})
+  	}
+  });
+});

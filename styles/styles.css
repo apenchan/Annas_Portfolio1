@@ -26,7 +26,7 @@ html, body{
 	text-align: center;
 }
 li{
-	display: inline-block;
+	list-style-type: none;
 }
 #about-me{
 /*	height: 0px;
