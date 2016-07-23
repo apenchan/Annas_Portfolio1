@@ -4,12 +4,20 @@ html, body{
 }
 #main-page-container{
 	background-image: url("http://bit.ly/29VETIG");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% auto;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.overlay{
+	height: 100%;
 	width: 100%;
-	background-size: cover;
+	padding-bottom: 60%;
 }
 .name{
 	text-align: center;
-	margin: 10%;
 }
 .web-developer{
 	text-align: center;
@@ -17,11 +25,14 @@ html, body{
 .blurb{
 	text-align: center;
 }
-/*#navigation{
-	text-align: center;
-	bottom: 0;
-	width: 100%;
-}*/
 li{
 	display: inline-block;
+}
+#about-me{
+/*	height: 0px;
+	width: 0;*/
+	padding: 30px; 
+	height: 100%;
+	padding-bottom: 80vh;
+
 }
