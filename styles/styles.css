@@ -1,0 +1,27 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+#main-page-container{
+	background-image: url("http://bit.ly/29VETIG");
+	width: 100%;
+	background-size: cover;
+}
+.name{
+	text-align: center;
+	margin: 10%;
+}
+.web-developer{
+	text-align: center;
+}
+.blurb{
+	text-align: center;
+}
+/*#navigation{
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+}*/
+li{
+	display: inline-block;
+}
