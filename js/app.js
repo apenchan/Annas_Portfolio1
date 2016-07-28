@@ -9,7 +9,7 @@ $(document).ready(function() {
 
   		$("body,html").animate({
   			scrollTop : $(hash).offset().top
-  		}, 800, function(){
+  		}, 500, function(){
   			window.location.hash = hash;
   		})
   	}
