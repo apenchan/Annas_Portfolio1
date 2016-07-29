@@ -85,12 +85,13 @@ li{
 	padding-bottom: 80vh;
 
 }
-/*.image{
-	width: 400px;
-	height: 500px;
-}*/
 .annas-about{
 	float: right;
 	margin-left: 500px;
 	margin-right: 200px;
+}
+h1{
+	text-align: center;
+	font-family: "CaviarDreams_BoldItalic";
+	font-size: 40px;
 }
