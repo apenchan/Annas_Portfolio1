@@ -32,7 +32,7 @@ html, body{
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 100% auto;
+  background-size: cover;
   height: 95vh;
   background-repeat: no-repeat;
 }
@@ -72,7 +72,17 @@ html, body{
   border: solid black;
 
 }
-li{
+.main-about-me{
+	list-style-type: none;
+	padding: 30px;
+	margin: 30px;
+}
+.main-projects{
+	list-style-type: none;
+	padding: 30px;
+	margin: 30px;
+}
+.main-contact{
 	list-style-type: none;
 	padding: 30px;
 	margin: 30px;
@@ -87,11 +97,32 @@ li{
 }
 .annas-about{
 	float: right;
+	font-family: "Roboto-Regular";
 	margin-left: 500px;
-	margin-right: 200px;
+	margin-right: 300px;
 }
 h1{
 	text-align: center;
 	font-family: "CaviarDreams_BoldItalic";
 	font-size: 40px;
+}
+h2{
+	font-family: "CaviarDreams_BoldItalic";
+	font-size: 30px;
+	text-align: center;
+}
+.skills{
+	font-family: "Roboto-Regular";
+	text-align: center;
+	position: absolute;
+	margin-left: 50px;
+}
+li{
+	list-style-type: none;
+	padding: 10px;
+}
+#projects{
+	padding: 30px; 
+	height: 100%;
+	padding-bottom: 80vh;
 }
