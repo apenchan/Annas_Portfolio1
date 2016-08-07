@@ -33,7 +33,7 @@ html, body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 95vh;
+  height: 100vh;
   background-repeat: no-repeat;
 }
 .overlay{
@@ -124,9 +124,30 @@ li{
 #projects{
 	padding: 30px; 
 	height: 100%;
-	padding-bottom: 80vh;
+	padding-bottom: 40vh;
 }
 .find-me-uni{
 	float: right;
+}
+.languages{
+	font-family: "Roboto-Regular";
+	font-size: 25px; 
+}
+.languages2{
+	font-family: "Roboto-Regular";
+	font-size: 15px;
+}
+.title{
+	font-family: "Roboto-Regular";
+	font-size: 20px;
+	padding: 20px;
+}
+#contact{
+	padding: 30px; 
+	height: 70%;
+}
+.github{
+	width: 350px;
+	height: 450px;
 }
 
