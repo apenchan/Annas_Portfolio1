@@ -93,7 +93,7 @@ html, body{
 	padding: 30px; 
 	height: 100%;
 	padding-bottom: 80vh;
-
+	background-color: #7CE87D;
 }
 .annas-about{
 	float: right;
@@ -125,6 +125,8 @@ li{
 	padding: 30px; 
 	height: 100%;
 	padding-bottom: 40vh;
+	background-color: #E8E33F;
+	background-size: cover;
 }
 .find-me-uni{
 	float: right;
@@ -143,11 +145,15 @@ li{
 	padding: 20px;
 }
 #contact{
-	padding: 30px; 
+	padding: 40px; 
 	height: 70%;
+	text-align: center;
 }
 .github{
 	width: 350px;
 	height: 450px;
 }
-
+.linkedin{
+	width: 200px;
+	height: 250px;
+}
